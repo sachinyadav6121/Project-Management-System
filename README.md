@@ -33,7 +33,8 @@ This is a simple Project Management System implemented using Java 17 and Spring 
 └── pom.xml  
  
 5. Run `mvn spring-boot:run` to start the application.  
-6. Embaded  server port 8081  
+6. Embaded  server port 8081
+7. API Documentation http://localhost:8081/swagger-ui.html
    
 ## API Usage  
   
