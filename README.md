@@ -38,7 +38,7 @@ This is a simple Project Management System implemented using Java 17 and Spring 
 ## API Usage  
   
 ## Create a Resource to Insert Project Details  
-URL: /project-api/addProject  
+URL: http://localhost:8081/project-api/addProject  
 Method: POST  
 Request Body:  
   {  
@@ -54,7 +54,7 @@ Response:
 500 Internal Server Error on server error  
   
 ## Get Resource  
-URL: /project-api/getProject{pid}  
+URL: http://localhost:8081/project-api/getProject{pid}  
 Method: GET  
   
 Response Status Codes:  
@@ -62,7 +62,7 @@ Response Status Codes:
 500 Internal Server Error on server error  
   
 ## Get Resources   
-URL: /project-api/getAllProject/{pid}  
+URL:  http://localhost:8081/project-api/getAllProject/{pid}  
 Method: GET  
   
 Response Status Codes:  
@@ -70,7 +70,7 @@ Response Status Codes:
 500 Internal Server Error on server error  
   
 ## Update a Resource  
-URL: /project-api/updateProject  
+URL:  http://localhost:8081/project-api/updateProject  
 Method: PUT  
 Request Body:  
 {  
@@ -86,7 +86,7 @@ Response Status Codes:
 500 Internal Server Error on server error  
   
 ## Delete a Resource  
-URL: /project-api/deleteProject/{pid}  
+URL:  http://localhost:8081/project-api/deleteProject/{pid}  
 Method: DELETE  
 Response Status Codes:  
 200 OK on success    
